@@ -32,15 +32,15 @@ img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-color: purple;
-  display: flex;
+  background-color: plum;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   color: white;
   margin: 10px;
 }
 
-.avatar h1{
+.avatar h1 {
   font-weight: normal;
   font-size: 50px;
 }
