@@ -12,13 +12,13 @@ function App() {
     <div>
       <div>
         <h1>Hey!</h1>
-      <h2>{getText()}</h2>
-      <FuncButton title="Mygtuko tekstas1" />
-      <FuncDiv /> 
+        <h2>{getText()}</h2>
+        <FuncButton title="Mygtuko tekstas1" />
+        <FuncDiv /> 
       </div>
       <div>
-      <ClassButton name="Class mygtukas1"/>
-      <ClassDiv/>
+        <ClassButton name="Class mygtukas1"/>
+        <ClassDiv/>
       </div>
 
     </div>
