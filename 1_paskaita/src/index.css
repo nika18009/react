@@ -14,14 +14,14 @@ code {
 
 .card,
 img {
-  width: 350px;
+  width: 250px;
   border-radius: 10px 10px 0 0;
 }
 .card {
   margin: 10px;
   border: 1px solid grey;
   border-radius: 10px;
-  height: 400px;
+  height: 350px;
 }
 
 .card div {
@@ -44,3 +44,5 @@ img {
   font-weight: normal;
   font-size: 50px;
 }
+
+
