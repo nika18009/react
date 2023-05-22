@@ -1,0 +1,32 @@
+/* .hero{
+    
+    color: white;
+    margin: 30px;
+} */
+/* body{
+    background-color: plum;
+} */
+.button,
+.mood{
+    text-align: center;
+    margin: 30px;
+}
+
+.mood button{
+    margin: 10px
+}
+.text{
+    background-color: white;
+    color: plum;
+    border: solid 1px white;
+}
+.contained{
+    background-color: plum;
+    color: white;
+    border: solid 1px plum;
+}
+.outlined{
+    background-color: white;
+    color: plum;
+    border: solid 1px plum;
+}
