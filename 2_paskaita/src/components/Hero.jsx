@@ -1,17 +1,17 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-function Hero(props) {
-    
-  return props.title && props.subtitle?(
-    <div class="hero">
-        <h1>{props.title}</h1>
-        <h2>{props.subtitle}</h2>
-    </div>
-  ):(
-    <></>
-  )
-    
-  ;
+const Hero = ({ title, subtitle }) => {
+  return (
+  
+    <div className="hero">
+     
+    {title && <h1>{title}</h1>}
+     
+    {subtitle && <h3>{subtitle}</h3>}
+     
+   </div>
+     
+   );
 }
 
 Hero.propTypes = {
@@ -20,3 +20,4 @@ Hero.propTypes = {
 };
 
 export default Hero;
+
