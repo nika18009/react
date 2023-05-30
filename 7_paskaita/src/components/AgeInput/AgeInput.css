@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(
+      to right,
+      rgba(151, 213, 247, 0.877),
+      rgba(223, 138, 41, 0.795)
+    );
+  }
+  .ageInput {
+    width: 20rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(214, 211, 211);
+    margin-top: 100px;
+    padding: 10px 0 30px 0 ;
+    background-color: rgba(255, 255, 255, 0.911);
+    color: rgb(92, 91, 91);
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+  }
+  
+  label {
+    width: 18rem;
+    margin-left: 10px;
+  }
+  
+ button {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(223, 138, 41);
+    border: solid 2px rgb(223, 138, 41);
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  input {
+    width: 90%;
+    padding: 5px;
+    border-color: rgba(218, 217, 217, 0.705);
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: left;
+  }
+
+
+ 
+  
