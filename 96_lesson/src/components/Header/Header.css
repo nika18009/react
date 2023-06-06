@@ -1,0 +1,138 @@
+.navBar {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-image: linear-gradient(
+    rgba(193, 225, 233, 0.582),
+    rgba(254, 234, 135, 0.808)
+  );
+}
+.navBar img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}
+
+.mainPicture {
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+
+  overflow: hidden;
+}
+.mainPicture img {
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+
+.aboutUs {
+  margin: 20px;
+  text-align: center;
+  color: gray;
+  width: 70vw;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+.aboutUs h2,
+.news h2,
+.contactForm h2 {
+  font-weight: lighter;
+}
+
+.aboutUs img {
+  width: 40rem;
+  border-radius: 10px;
+}
+
+.news {
+  text-align: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.newsSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newsCard {
+  padding: 10px;
+  width: 20rem;
+  margin: 10px 20px;
+
+  box-shadow: 0 0 3px rgb(241, 217, 163);
+  font-weight: lighter;
+  color: gray;
+}
+
+.newsCard h4 {
+  font-weight: normal;
+}
+
+.imageCard img {
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.imageCard {
+  margin: 10px;
+  box-shadow: 0 0 5px rgb(228, 226, 226);
+}
+
+.contactForm {
+  width: 30vw;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.13);
+}
+
+.contactForm img {
+  height: 30rem;
+  border-radius: 5px;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 19rem;
+  justify-content: space-between;
+}
+
+.inputArea button {
+  background-color: white;
+  border: solid 2px white;
+  box-shadow: 0 0 5px gainsboro;
+}
+
+.inputArea button:hover {
+  box-shadow: 0 0 5px gray;
+}
