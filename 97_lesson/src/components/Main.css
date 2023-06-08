@@ -1,0 +1,148 @@
+.userCard,
+.card {
+  width: 10rem;
+  height: 10rem;
+  margin: 10px;
+}
+
+.card {
+  text-align: center;
+  border: solid 1px rgba(255, 255, 255, 0.295);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.295);
+  box-shadow: 0 0 2px white;
+  padding-top: 2rem;
+  color: white;
+}
+
+.singleUserCard {
+  width: 25rem;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+.singleUserCard img,
+.userCard img {
+  width: 5rem;
+  border: 5px solid rgba(255, 255, 255, 0.37);
+  border-radius: 50px;
+}
+
+.userCard h4 {
+  margin: 0;
+}
+
+.allUsers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60rem;
+  margin: 0 auto;
+}
+
+.section {
+  height: calc(100vh - 4rem - 20px);
+  padding-top: 20px;
+}
+
+.usersSection h2 {
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 400%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: #fdfcfbc9;
+  font-weight: lighter;
+}
+
+.navBar img {
+  width: 50px;
+  height: 50px;
+}
+
+.mainPicture {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mainPicture img {
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b1aeaa;
+}
+
+.links {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #b1aeaa;
+}
+
+.links:hover {
+  border-bottom: 2px solid #c4b1a1;
+}
+
+.icons {
+  display: flex;
+  width: 80px;
+  justify-content: space-around;
+  padding: 0;
+  color: #dcd9d4;
+}
+
+.background {
+  background-color: #dcd9d4;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    radial-gradient(
+      at 50% 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 50%
+    );
+  background-blend-mode: soft-light, screen;
+}
+
+.loading {
+  color: white;
+}
